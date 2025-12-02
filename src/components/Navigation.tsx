@@ -25,7 +25,7 @@ const Navigation = () => {
         <div className="flex items-center justify-between h-20">
           <Link to="/" className="flex items-center gap-2 text-2xl font-bold text-secondary">
             <Icon name="Sparkles" className="text-primary" size={32} />
-            <span>SkyLine</span>
+            <span>Натяжные потолки Белореченск</span>
           </Link>
 
           <div className="hidden lg:flex items-center gap-8">
