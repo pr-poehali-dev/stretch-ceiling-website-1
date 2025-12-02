@@ -13,7 +13,6 @@ const Navigation = () => {
     { name: "Калькулятор", path: "/calculator" },
     { name: "Галерея", path: "/gallery" },
     { name: "Блог", path: "/blog" },
-    { name: "О компании", path: "/about" },
     { name: "Контакты", path: "/contact" }
   ];
 
