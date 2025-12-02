@@ -5,13 +5,15 @@ const Footer = () => {
   const currentYear = new Date().getFullYear();
 
   return (
-    <footer className="bg-secondary text-white mt-20">
+    <footer className="bg-gradient-to-br from-foreground to-foreground/95 text-white mt-20">
       <div className="container mx-auto px-4 py-12">
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 mb-8">
           <div>
             <div className="flex items-center gap-2 text-2xl font-bold mb-4">
-              <Icon name="Sparkles" className="text-primary" size={28} />
-              <span>SkyLine</span>
+              <div className="w-10 h-10 bg-gradient-to-br from-primary to-secondary rounded-lg flex items-center justify-center">
+                <Icon name="Sparkles" className="text-white" size={24} />
+              </div>
+              <span>Потолки Белореченск</span>
             </div>
             <p className="text-white/80 mb-4">
               Профессиональный монтаж натяжных потолков с гарантией 12 лет
@@ -121,7 +123,7 @@ const Footer = () => {
         </div>
 
         <div className="border-t border-white/10 pt-8 flex flex-col md:flex-row justify-between items-center gap-4 text-white/60 text-sm">
-          <p>© {currentYear} SkyLine. Все права защищены.</p>
+          <p>© {currentYear} Потолки Белореченск. Все права защищены.</p>
           <p>Сделано с ❤️ для идеальных потолков</p>
         </div>
       </div>

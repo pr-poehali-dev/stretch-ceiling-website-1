@@ -22,9 +22,13 @@ const Navigation = () => {
     <nav className="bg-white/95 backdrop-blur-sm shadow-sm fixed w-full top-0 z-50">
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between h-20">
-          <Link to="/" className="flex items-center gap-2 text-2xl font-bold text-secondary">
-            <Icon name="Sparkles" className="text-primary" size={32} />
-            <span>Натяжные потолки Белореченск</span>
+          <Link to="/" className="flex items-center gap-2 text-2xl font-bold">
+            <div className="w-10 h-10 bg-gradient-to-br from-primary to-secondary rounded-lg flex items-center justify-center">
+              <Icon name="Sparkles" className="text-white" size={24} />
+            </div>
+            <span className="bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">
+              Потолки Белореченск
+            </span>
           </Link>
 
           <div className="hidden lg:flex items-center gap-8">
